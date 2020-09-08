@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light pb-5"
+      style="
+        border: 1px solid white;
+        box-shadow: 0px 6px 40px rgb(173, 173, 173, 0.25);
+      "
+    >
+      <div class="mt-4 mr-4" style="margin-left: 100px;">
+        <img src="../img/logo.svg" alt="" />
+      </div>
+      <div class="input-group mt-4 ml-5">
+        <input
+          class="form"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          style="
+            width: 502px;
+            height: 40px;
+            border-radius: 23px;
+            padding-left: 30px;
+            position: relative;
+          "
+        />
+        <img
+          src="../img/search.svg"
+          style="position: absolute; padding-left: 460px; padding-top: 10px;"
+        />
+
+        <button
+          class="btn btn-outline-secondary"
+          style="border-radius: 12px; margin-left: 10px;"
+          type="submit"
+        >
+          <img src="../img/filter.svg" />
+        </button>
+      </div>
+      <button
+        class="mt-4 ml-5"
+        style="
+          border: 1px 1px 1px 1px solid white;
+          background: white;
+          border-width: 0px;
+        "
+        type="submit"
+      >
+      <script>
+        function link3() {
+          window.location.replace("./mybag.html")
+      }
+   </script>
+        <img src="../img/shopping-cart.svg" alt="" onclick="link3()" />
+      </button>
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label
+          class="mt-4 ml-5 btn btn-outline-danger active"
+          style="
+            border-radius: 25px;
+            margin: 0px 10px 0px 10px;
+            width: 100px;
+            height: 36px;
+          "
+        >
+        <script>
+          function link1() {
+               window.location.replace("./login.html")
+           }
+        </script>
+          <input type="radio" name="options" id="option1" checked onclick="link1()"/>
+          Login
+        </label>
+        <script>
+          function link() {
+               window.location.replace("./register.html")
+           }
+        </script>
+        <label
+          class="mt-4 mr-5 btn btn-outline-danger active"
+          style="
+            border-radius: 25px;
+            margin: 0px 10px 0px 10px;
+            width: 100px;
+            height: 36px;
+          "
+        >
+          <input type="radio" name="options" id="option1" checked onclick="link()" />
+          Signup
+        </label>
+      </div>
+    </nav>
+    <div
+      id="carousel"
+      class="container mt-5 carousel slide"
+      data-ride="carousel"
+    >
+      <div class="row">
+        <div class="col">
+          <img src="../img/carousel3.png" alt="" style="position: absolute;" />
+        </div>
+        <div class="col">
+          <img src="../img/carousel1.png" alt="" style="position: relative;" />
+        </div>
+        <div class="col">
+          <img src="../img/carousel2.png" alt="" style="position: relative;" />
+        </div>
+        <div class="col">
+          <img src="../img/carousel4.png" alt="" style="position: absolute;" />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev bg-dark"
+        href="#carousel"
+        data-slide="prev"
+        style="
+          border: 1px solid black;
+          border-radius: 100px;
+          width: 52px;
+          height: 52px;
+          margin-top: 60px;
+          margin-left: 60px;
+        "
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next bg-dark"
+        href="#carousel"
+        data-slide="prev"
+        style="
+          border: 1px solid black;
+          border-radius: 100px;
+          width: 52px;
+          height: 52px;
+          margin-top: 60px;
+          margin-right: 60px;
+        "
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <div
+      class="ml-5 btn-group btn-group-toggle"
+      data-toggle="buttons"
+      style="padding-left: 60px;"
+    >
+      <label
+        class="mt-4 btn btn-outline-secondary active"
+        style="
+          border-radius: 25px;
+          margin: 10px 10px 10px 10px;
+          width: 10px;
+          height: 10px;
+          padding: 0rem;
+        "
+      >
+        <input type="radio" name="options" id="option1" checked />
+      </label>
+      <label
+        class="mt-4 btn btn-outline-secondary active"
+        style="
+          border-radius: 35px;
+          margin: 10px 10px 10px 10px;
+          width: 10px;
+          height: 10px;
+          padding: 0rem;
+        "
+      >
+        <input type="radio" name="options" id="option2" checked />
+      </label>
+      <label
+        class="mt-4 btn btn-outline-secondary active"
+        style="
+          border-radius: 35px;
+          margin: 10px 10px 10px 10px;
+          width: 10px;
+          height: 10px;
+          padding: 0rem;
+        "
+      >
+        <input type="radio" name="options" id="option3" checked />
+      </label>
+      <label
+        class="mt-4 btn btn-outline-secondary active"
+        style="
+          border-radius: 35px;
+          margin: 10px 10px 10px 10px;
+          width: 10px;
+          height: 10px;
+          padding: 0rem;
+        "
+      >
+        <input type="radio" name="options" id="option4" checked />
+      </label>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <span style="font-size: 34px; font-weight: bold;">Category</span>
+      </div>
+      <div class="row">
+        <span style="font-size: 12px; color: gray;"
+          >What are you currently looking for</span
+        >
+      </div>
+    </div>
+    <div
+      id="carousel"
+      class="container mt-5 carousel slide"
+      data-ride="carousel"
+    >
+      <div class="row">
+        <script>
+          function link2() {
+               window.location.replace("./product.html")
+           }
+        </script>
+        <div class="col">
+          <img src="../img/category1.png" alt="" style="position: relative;" onclick="link2()"/>
+        </div>
+        <div class="col">
+          <img src="../img/category2.png" alt="" style="position: relative;" />
+        </div>
+        <div class="col">
+          <img src="../img/category3.png" alt="" style="position: relative;" />
+        </div>
+        <div class="col">
+          <img src="../img/category5.png" alt="" style="position: relative;" />
+        </div>
+        <div class="col">
+          <img src="../img/category4.png" alt="" style="position: absolute;" />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev bg-dark"
+        href="#carousel"
+        data-slide="prev"
+        style="
+          border-radius: 100px;
+          width: 52px;
+          height: 52px;
+          margin-top: 60px;
+          margin-left: 60px;
+        "
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next bg-dark"
+        href="#carousel"
+        data-slide="prev"
+        style="
+          border: 1px solid black;
+          border-radius: 100px;
+          width: 52px;
+          height: 52px;
+          margin-top: 60px;
+          margin-right: 60px;
+        "
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <div class="container" style="margin-top: 50px; margin-bottom: 25px;">
+      <div class="row">
+        <span style="font-size: 34px; font-weight: bold; padding-bottom: 4px;"
+          >New</span
+        >
+      </div>
+      <div class="row">
+        <span style="font-size: 12px; color: gray;"
+          >You've never seen it before!</span
+        >
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container" style="margin-top: 50px; margin-bottom: 25px;">
+      <div class="row">
+        <span style="font-size: 34px; font-weight: bold; padding-bottom: 4px;"
+          >Popular</span
+        >
+      </div>
+      <div class="row">
+        <span style="font-size: 12px; color: gray;"
+          >Find clothes that are trending recently</span
+        >
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 10px;">
+          <div
+            class="card"
+            style="width: 208px; height: 278; box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+border-radius: 8px;"
+          >
+            <img
+              src="../img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 2.svg"
+              class="card-img-top"
+              alt="kelambi"
+              style="width: 204px; height: 136px;"
+            />
+            <div class="card-body" style="width: 208px; height: 278;">
+              <h5 class="card-title">Men's formal suit - Black & White</h5>
+              <p class="card-text text-danger">$40.0</p>
+              <p class="card-text text-secondary">Zalora Cloth</p>
+              <img src="../img/Rating 5 stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

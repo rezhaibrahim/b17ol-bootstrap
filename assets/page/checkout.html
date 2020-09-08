@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckOut</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light pb-5"
+      style="
+        border: 1px solid white;
+        box-shadow: 0px 6px 40px rgb(173, 173, 173, 0.25);
+      "
+    >
+    <script>
+      function link1() {
+        window.location.replace("./homepage.html")
+    }
+ </script>
+      <div class="mt-4 mr-4" style="margin-left: 100px;" >
+        <img src="../img/logo.svg" alt="" onclick="link1()"/>
+      </div>
+      <div class="input-group mt-4 ml-5">
+        <input
+          class="form"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          style="
+            width: 502px;
+            height: 40px;
+            border-radius: 23px;
+            padding-left: 30px;
+            position: relative;
+          "
+        />
+        <img
+          src="../img/search.svg"
+          style="position: absolute; padding-left: 460px; padding-top: 10px;"
+        />
+
+        <button
+          class="btn btn-outline-secondary"
+          style="border-radius: 12px; margin-left: 10px;"
+          type="submit"
+        >
+          <img src="../img/filter.svg" />
+        </button>
+      </div>
+      <button
+        class="mt-4 ml-5"
+        style="
+          border: 1px 1px 1px 1px solid white;
+          background: white;
+          border-width: 0px;
+        "
+        type="submit"
+      >
+        <img src="../img/shopping-cart.svg" alt="" />
+      </button>
+      <button
+        class="mt-4 ml-5"
+        style="
+          border: 1px 1px 1px 1px solid white;
+          background: white;
+          border-width: 0px;
+        "
+        type="submit"
+      >
+        <img src="../img/Vector.svg" alt="" />
+      </button>
+      <button
+        class="mt-4 ml-5"
+        style="
+          border: 1px 1px 1px 1px solid white;
+          background: white;
+          border-width: 0px;
+        "
+        type="submit"
+      >
+        <img src="../img/mail (3) 1.svg" alt="" />
+      </button>
+      <button
+        class="mt-4 ml-5"
+        style="
+          border: 1px 1px 1px 1px solid white;
+          background: white;
+          border-width: 0px;
+        "
+        type="submit"
+      >
+      <script>
+        function link2() {
+          window.location.replace("./profile.html")
+      }
+   </script>
+        <img
+          src="../img/christian-buehner-DItYlc26zVI-unsplash 1.svg"
+          alt=""
+          style="
+            width: 30px;
+            height: 32px;
+            border-radius: 100px;
+            margin-right: 40px;
+          "
+          onclick="link2()"
+        />
+      </button>
+    </nav>
+    <div class="container mt-5" style="margin-left: 150px;">
+      <div class="row mb-3">
+        <div class="col">
+          <span style="font-size: 34px; font-weight: bold;">Checkout</span>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col">
+          <span style="font-size: 16px; font-weight: bold;">Shipping address</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col md-5" style="width: 680px; height: 300px;">
+          <div class="p-3 border" style="width: 580px; height: 190px;">
+            <div class="mt-2 ml-2" >
+                <span
+              style="font-size: 16px; font-weight: bold; padding-left: 10px;"
+              >Andreas Jane
+            </span>   
+               
+            </div>
+            <div style="margin-left: 30px;margin-right: 30px;">
+                <span
+              style="font-size: 14px;">
+              Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah, 53181 [Tokopedia Note: blok c 16] Sokaraja, Kab. Banyumas, 53181
+            </span>
+            </div>
+            <div class="mt-3 ml-4">
+                <div >
+                    <input class="btn btn-outline-secondary" type="button" value="Choose another address" style="width: 300px;height: 36px; border-radius: 25px;">
+                </div>
+            </div>
+          </div>
+          
+          <div class="row mt-3">
+            <div class="col md-5">
+              <div
+                class="p-3 border"
+                style="width: 580px; height: 126px; padding: 10px;"
+              >
+                <div class="row">
+                    
+                  <img
+                    src="../img/baju.png"
+                    alt=""
+                    style="width: 103px; height: 100px; padding-left: 10px;"
+                  />
+
+                  <div class="col mt-4">
+                    <span class="font-weight-bold" style="font-size: 16px;"
+                      >Men's Formal suit-Black</span
+                    >
+                    <div>
+                      <span class="text-secondary">Zalora cloth</span>
+                    </div>
+                  </div>
+                  
+                    <label
+                      class="mt-4 btn font-weight-bold  active"
+                      style="border: 0px solid white;"
+                    >
+                      $20.0
+                    </label>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col md-5">
+              <div
+                class="p-3 border"
+                style="width: 580px; height: 126px; padding: 10px;"
+              >
+                <div class="row">
+                  <img
+                    src="../img/jaket.png"
+                    alt=""
+                    style="width: 103px; height: 100px; padding-left: 10px;"
+                  />
+
+                  <div class="col mt-4">
+                    <span class="font-weight-bold" style="font-size: 16px;"
+                      >Men's jaket jeans</span
+                    >
+                    <div>
+                      <span class="text-secondary">Zalora cloth</span>
+                    </div>
+                  </div>
+                    <label
+                      class="mt-4 btn font-weight-bold  active"
+                      style="border: 0px solid white;"
+                    >
+                      $20.0
+                    </label>
+
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+          
+      </div>
+      <div class="col" style="box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25); margin-left: 100px;">
+          
+        <div style="width: 370px;height: 256px;">
+            <div class="row mt-4 ml-5 ">
+                <div class="font-weight-bold">
+                    <span>Shopping summary</span>
+                </div>
+            </div>
+            <div class="row mt-4 ml-5 ">
+                <div class="font-weight-bold mr-5">
+                    <span class="text-secondary">Total price</span>
+                </div>
+                <div class="font-weight-bold" style="margin-left: 100px;">
+                    <span>$ 40.0</span>
+                </div>
+            </div>
+            <div class="row mt-2 ml-5 " >
+                <div class="font-weight-bold mr-5">
+                    <span class="text-secondary">Total price</span>
+                </div>
+                <div class="font-weight-bold" style="margin-left: 110px;">
+                    <span>$ 5.0</span>
+                </div>
+            </div>
+            <hr style="border: 1px solid gray;"/>
+            <div class="row mt-4 ml-5 ">
+                <div class="font-weight-bold mr-5">
+                    <span class="text-secondary">Total price</span>
+                </div>
+                <div class="font-weight-bold" style="margin-left: 100px;">
+                    <span class="text-danger">$ 45.0</span>
+                </div>
+            </div>
+            <div class="row mt-4 ml-3 " >
+                <div style="margin-right:10px;" >
+                    <input class="btn btn-danger" type="button" value="Select payment" style="width: 340px;height: 36px; border-radius: 25px;">
+                </div>
+            </div>
+                    
+        </div>
+    </div>
+    </div>
+  </body>
+</html>

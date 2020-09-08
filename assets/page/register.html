@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+
+
+    
+      <style>
+        
+      </style>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <div class="container-fluid" >
+      <div
+        class="container mt-5 mb-5"
+        style=" width: 400px;"
+      >
+        <div class="row justify-content-center">
+          <img class="mt-5" src="../img/logo.svg" alt="logo" />
+        </div>
+        <div class="row justify-content-center">
+          <span class="mt-5" style="font-size: 18px;font-weight: bold;">Please sign up with your account</span>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-outline-danger active">
+              <input type="radio" name="options" id="option1" checked />
+              Custommer
+            </label>
+            <label class="btn btn-outline-danger active">
+              <input type="radio" name="options" id="option2" /> Seller
+            </label>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <input
+            style="width: 400px; height: 48px; padding-left: 20px;"
+            type="text"
+            placeholder="Name"
+          />
+        </div>
+        <div class="row justify-content-center mt-3">
+          <input
+            style="width: 400px; height: 48px; padding-left: 20px;"
+            type="text"
+            placeholder="Email"
+          />
+        </div>
+        <div class="row justify-content-center mt-3">
+            <input
+              style="width: 400px; height: 48px; padding-left: 20px;"
+              type="text"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="row justify-content-center mt-3">
+            <input
+              style="width: 400px; height: 48px; padding-left: 20px;"
+              type="text"
+              placeholder="Store Name"
+            />
+          </div>
+          <div class="row justify-content-center mt-3">
+            <input
+              style="width: 400px; height: 48px; padding-left: 20px;"
+              type="password"
+              placeholder="Password"
+            />
+          </div>
+        <div class="row justify-content-center mt-5">
+            <script>
+               function link() {
+                   alert('sukses!!!')
+                   window.location.replace("./login.html")
+               }
+                </script>
+                
+            <input class="btn btn-danger btn-lg btn-block" style="border-radius: 25px;"  type="button" value="Register" onclick="link()" >
+
+          
+        </div>
+        <div class="row justify-content-center mt-5">
+
+            <span>Already have a Tokopedia account? <a href="./login.html" class=" text-danger" style="text-decoration: none;">Login</a> </span>
+        </div>
+      </div>
+      <!-- <div class="row mx-md-n5">
+        <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
+        <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
+    </div> -->
+    
+    </div>
+  </body>
+</html>
